@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 292EFB555D4B43FDAEE90216 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				C436D4D029404C5A25B4402B /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		94AF07CFEF334CB19E033798 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D820EFD9D82940A6B9055F2B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				95B53EF71181FD8364193483 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				15184B4E0E83488585775822 /* PBXTargetDependency */,
+				4805BB1AE4A84884988705FD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DD10130DC3DC4025BAF13F3C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB691CFF59A24F0DA626E78C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				EDADD90C412A4E2A9745EDB3 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		25D807AAA4CE42BFA438537A /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FBEA1F681E654B55B60C7B2F /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */; };
+		52F3DEF7082844059C852A7C /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */ = {isa = PBXBuildFile; fileRef = 3A2C7D95C1F14BD6B200453E /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */; };
+		63AD595B2CEA4969AA5452D8 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */ = {isa = PBXBuildFile; fileRef = 8BFCE9C3678B4720864C2DC8 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */; };
+		DE4C08711BBC4F2F86EB520D /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */ = {isa = PBXBuildFile; fileRef = D3EEBE8F93C24829B3F05DC0 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		20B2019B67464BAF95D7A34E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		44E9762C22EC44B5A6BBD6B8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		93D5C5BD9EF3456DAB327DD4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		98278F55EB504E439858E54A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		15A3C1CB3BBF40C2A3371432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F9A231A1F4716A650ED23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2239CD4A82DA4BD2A9FF71D3;
+			remoteInfo = ZERO_CHECK;
+		};
+		239A3D3020EB44E79CE77E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F9A231A1F4716A650ED23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E47AFBCD3BD04EEFB801E073;
+			remoteInfo = pugixml;
+		};
+		52CAB8FEF7BB4FBF867D4266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F9A231A1F4716A650ED23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2239CD4A82DA4BD2A9FF71D3;
+			remoteInfo = ZERO_CHECK;
+		};
+		7E04A070BE8A45BC9578A629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736F9A231A1F4716A650ED23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94AF07CFEF334CB19E033798;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A2C7D95C1F14BD6B200453E /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pugixml.hpp; path = src/pugixml.hpp; sourceTree = SOURCE_ROOT; };
+		5886BA7B51564E8D9695F4C1 /* pugixml */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libpugixml.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFCE9C3678B4720864C2DC8 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pugiconfig.hpp; path = src/pugiconfig.hpp; sourceTree = SOURCE_ROOT; };
+		CF42C43BD57B40308F980C36 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D3EEBE8F93C24829B3F05DC0 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pugixml.cpp; path = src/pugixml.cpp; sourceTree = SOURCE_ROOT; };
+		FBEA1F681E654B55B60C7B2F /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3886B6F3A7545F1B5176482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0055F3F5BF5C4763B2F46A4E /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BFCE9C3678B4720864C2DC8 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugiconfig.hpp */,
+				3A2C7D95C1F14BD6B200453E /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		0590AD1AFE08466FBEB8090D /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				0055F3F5BF5C4763B2F46A4E /* Header Files */,
+				EAA54987177642088AC72914 /* Source Files */,
+				FBEA1F681E654B55B60C7B2F /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */,
+			);
+			name = pugixml;
+			sourceTree = "<group>";
+		};
+		0ED40ACE6DC24D9B9F958506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5886BA7B51564E8D9695F4C1 /* pugixml */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A73DF0F687584464A5E9FCD9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E77293FF404543DE87E350BB /* CMake Rules */,
+				CF42C43BD57B40308F980C36 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E77293FF404543DE87E350BB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EAA54987177642088AC72914 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EEBE8F93C24829B3F05DC0 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F705C971891542579DF251C1 = {
+			isa = PBXGroup;
+			children = (
+				0590AD1AFE08466FBEB8090D /* pugixml */,
+				A73DF0F687584464A5E9FCD9 /* ALL_BUILD */,
+				0ED40ACE6DC24D9B9F958506 /* Products */,
+				FC6DE77AE7CB4D43AE5F3221 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6DE77AE7CB4D43AE5F3221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E47AFBCD3BD04EEFB801E073 /* pugixml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270D0D29F822478A94C1D5DE /* Build configuration list for PBXNativeTarget "pugixml" */;
+			buildPhases = (
+				D8FC518A172B464A9C8F5CDA /* Sources */,
+				A3886B6F3A7545F1B5176482 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8FCE57A0FF942EFA2682306 /* PBXTargetDependency */,
+			);
+			name = pugixml;
+			productName = pugixml;
+			productReference = 5886BA7B51564E8D9695F4C1 /* pugixml */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		736F9A231A1F4716A650ED23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = D2C348C8A45847959E7AC09E /* Build configuration list for PBXProject "pugixml" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				93D5C5BD9EF3456DAB327DD4 /* Debug */,
+				20B2019B67464BAF95D7A34E /* Release */,
+				98278F55EB504E439858E54A /* MinSizeRel */,
+				44E9762C22EC44B5A6BBD6B8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F705C971891542579DF251C1;
+			projectDirPath = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml";
+			projectRoot = "";
+			targets = (
+				94AF07CFEF334CB19E033798 /* ALL_BUILD */,
+				2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */,
+				DD10130DC3DC4025BAF13F3C /* install */,
+				E47AFBCD3BD04EEFB801E073 /* pugixml */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		95B53EF71181FD8364193483 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C436D4D029404C5A25B4402B /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/pugixml/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8FC518A172B464A9C8F5CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4C08711BBC4F2F86EB520D /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src/pugixml.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15184B4E0E83488585775822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E47AFBCD3BD04EEFB801E073 /* pugixml */;
+			targetProxy = 239A3D3020EB44E79CE77E3E /* PBXContainerItemProxy */;
+		};
+		4805BB1AE4A84884988705FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */;
+			targetProxy = 52CAB8FEF7BB4FBF867D4266 /* PBXContainerItemProxy */;
+		};
+		E8FCE57A0FF942EFA2682306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */;
+			targetProxy = 15A3C1CB3BBF40C2A3371432 /* PBXContainerItemProxy */;
+		};
+		EDADD90C412A4E2A9745EDB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94AF07CFEF334CB19E033798 /* ALL_BUILD */;
+			targetProxy = 7E04A070BE8A45BC9578A629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00CD9A0F86814A9AAF596A74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = MinSizeRel;
+		};
+		010825C5E77741A1BA13B00A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = RelWithDebInfo;
+		};
+		0F50C383375041A0819312DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/pugixml.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		153F520E91E2488283439CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		18B331C1EF57453697948745 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		20DFBB544CBE45AA9D721952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = Release;
+		};
+		258CD835D0E34055AEB8754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = Debug;
+		};
+		2B6A3E08A7094C1293F0D37F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3DF31657A3614AD09475ADAD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/pugixml.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4BFBDA2C2A2C4591B82C1851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		50C6657CAA5C4EB8A0AB0CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6711BB054FE14349BB4C555E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include    '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/pugixml.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		837FED148E484A64BBFF3DA1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		916ED98462B745589570A75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9C216D63C04347738FF2D615 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C29A055CD61A4F1389721E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C58113FC4F704E81A6C179FF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CA882E0DE5C54F888FBFECEC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/pugixml/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pugixml;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/pugixml.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DCFD1691293C4C278A7686E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E33FB471484C4C3289D324EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		270D0D29F822478A94C1D5DE /* Build configuration list for PBXNativeTarget "pugixml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6711BB054FE14349BB4C555E /* Debug */,
+				0F50C383375041A0819312DE /* Release */,
+				CA882E0DE5C54F888FBFECEC /* MinSizeRel */,
+				3DF31657A3614AD09475ADAD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		292EFB555D4B43FDAEE90216 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFD1691293C4C278A7686E7 /* Debug */,
+				50C6657CAA5C4EB8A0AB0CBB /* Release */,
+				E33FB471484C4C3289D324EF /* MinSizeRel */,
+				18B331C1EF57453697948745 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D2C348C8A45847959E7AC09E /* Build configuration list for PBXProject "pugixml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				258CD835D0E34055AEB8754F /* Debug */,
+				20DFBB544CBE45AA9D721952 /* Release */,
+				00CD9A0F86814A9AAF596A74 /* MinSizeRel */,
+				010825C5E77741A1BA13B00A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D820EFD9D82940A6B9055F2B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29A055CD61A4F1389721E59 /* Debug */,
+				916ED98462B745589570A75B /* Release */,
+				9C216D63C04347738FF2D615 /* MinSizeRel */,
+				2B6A3E08A7094C1293F0D37F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB691CFF59A24F0DA626E78C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153F520E91E2488283439CD6 /* Debug */,
+				4BFBDA2C2A2C4591B82C1851 /* Release */,
+				C58113FC4F704E81A6C179FF /* MinSizeRel */,
+				837FED148E484A64BBFF3DA1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 736F9A231A1F4716A650ED23 /* Project object */;
+}

@@ -11,23 +11,25 @@
 using namespace std::experimental;
 
 static std::optional<std::vector<std::byte>> ReadFile(const std::string &path)
-{   
+{
+    //(filename, penmode mode open in binary mode | seek to the end of stream immediately after open);
     std::ifstream is{path, std::ios::binary | std::ios::ate};
+    
     if( !is )
         return std::nullopt;
     
-    auto size = is.tellg();
+    auto size = is.tellg(); //returns the input position indicator == size in that case
     std::vector<std::byte> contents(size);    
     
-    is.seekg(0);
-    is.read((char*)contents.data(), size);
+    is.seekg(0); // to the begining of the file
+    is.read((char*)contents.data(), size); //(s, count); s -pointer to the character array to store the characters to; count - number of characters to read
 
     if( contents.empty() )
         return std::nullopt;
-    return std::move(contents);
+    return std::move(contents); // moving returned object
 }
 
-int main(int argc, const char **argv)
+int main(int argc, const char **argv) //argc - arg count, argv - arg vector - array of the arguments passed in to main
 {    
     std::string osm_data_file = "";
     if( argc > 1 ) {

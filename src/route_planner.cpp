@@ -3,11 +3,7 @@
 
 RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, float end_x, float end_y): m_Model(model) {
     // Convert inputs to percentage:
-    start_x *= 0.01;
-    start_y *= 0.01;
-    end_x *= 0.01;
-    end_y *= 0.01;
-
+    
     // TODO 2: Use the m_Model.FindClosestNode method to find the closest nodes to the starting and ending coordinates.
     // Store the nodes you find in the RoutePlanner's start_node and end_node attributes.
 
@@ -19,9 +15,6 @@ RoutePlanner::RoutePlanner(RouteModel &model, float start_x, float start_y, floa
 // - You can use the distance to the end_node for the h value.
 // - Node objects have a distance method to determine the distance to another node.
 
-float RoutePlanner::CalculateHValue(RouteModel::Node const *node) {
-
-}
 
 
 // TODO 4: Complete the AddNeighbors method to expand the current node by adding all unvisited neighbors to the open list.
@@ -31,9 +24,7 @@ float RoutePlanner::CalculateHValue(RouteModel::Node const *node) {
 // - Use CalculateHValue below to implement the h-Value calculation.
 // - For each node in current_node.neighbors, add the neighbor to open_list and set the node's visited attribute to true.
 
-void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 
-}
 
 
 // TODO 5: Complete the NextNode method to sort the open list and return the next node.
@@ -43,9 +34,7 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 // - Remove that node from the open_list.
 // - Return the pointer.
 
-RouteModel::Node *RoutePlanner::NextNode() {
 
-}
 
 
 // TODO 6: Complete the ConstructFinalPath method to return the final path found from your A* search.
@@ -56,17 +45,7 @@ RouteModel::Node *RoutePlanner::NextNode() {
 // - The returned vector should be in the correct order: the start node should be the first element
 //   of the vector, the end node should be the last element.
 
-std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(RouteModel::Node *current_node) {
-    // Create path_found vector
-    distance = 0.0f;
-    std::vector<RouteModel::Node> path_found;
 
-    // TODO: Implement your solution here.
-
-    distance *= m_Model.MetricScale(); // Multiply the distance by the scale of the map to get meters.
-    return path_found;
-
-}
 
 
 // TODO 7: Write the A* Search algorithm here.
@@ -76,9 +55,4 @@ std::vector<RouteModel::Node> RoutePlanner::ConstructFinalPath(RouteModel::Node 
 // - When the search has reached the end_node, use the ConstructFinalPath method to return the final path that was found.
 // - Store the final path in the m_Model.path attribute before the method exits. This path will then be displayed on the map tile.
 
-void RoutePlanner::AStarSearch() {
-    RouteModel::Node *current_node = nullptr;
 
-    // TODO: Implement your solution here.
-
-}

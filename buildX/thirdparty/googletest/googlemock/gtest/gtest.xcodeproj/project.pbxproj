@@ -1,0 +1,1125 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0BABC6E1A2C407287654078 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				941A8E9C16AE1FF67325C2F6 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		94AF07CFEF334CB19E033798 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBD3DFD2A8CA4889AFFC3E63 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BFF16561C6C89CEDE3055465 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				EA75517E68A442489DB5F2DE /* PBXTargetDependency */,
+				81B122BBACBC425ABAF0CAFF /* PBXTargetDependency */,
+				2722015365FD4BEC9CB62036 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DD10130DC3DC4025BAF13F3C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B9B4FFF10A63444D8A88445C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				53423BBEEAA24420B8B9BB56 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D030A4707E64AB4B8B67669 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 405776DECCD64700898B44E3 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */; };
+		419D30E60B974FFF95A2D9B6 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A957E650E2824C5F9D3056B8 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */; };
+		95CE83C4848D44319C938585 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 97800734D53F4DBDB1A018D4 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */; };
+		DAFFE7F89AE84F8EA46E43BB /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 6DC72D4CF32146AAB6F6FAF0 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		293DA2237DE147A39B05050B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3EDDFD7F69844145BCD13FA5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		467996DD23E54ABABD0CD2C4 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E67ED2517ABB4F62B659B4C6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		09E8124AF89D470398AD2EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F858840141426B9BB9F586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2239CD4A82DA4BD2A9FF71D3;
+			remoteInfo = ZERO_CHECK;
+		};
+		0EFB096B1EBF456E9BB7310B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F858840141426B9BB9F586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94AF07CFEF334CB19E033798;
+			remoteInfo = ALL_BUILD;
+		};
+		45593E84C5A8428EA3115D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F858840141426B9BB9F586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E86758873742379BA14DE3;
+			remoteInfo = gtest;
+		};
+		658A53071E864765912AE27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F858840141426B9BB9F586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923B0BEFC2364BC895D5B9D0;
+			remoteInfo = gtest_main;
+		};
+		6BAC93EF8979471894343D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F858840141426B9BB9F586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2239CD4A82DA4BD2A9FF71D3;
+			remoteInfo = ZERO_CHECK;
+		};
+		ACDED7394D544B878B300332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F858840141426B9BB9F586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2239CD4A82DA4BD2A9FF71D3;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6BFF701BA3D4FDCB311A684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7F858840141426B9BB9F586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E86758873742379BA14DE3;
+			remoteInfo = gtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1446DEC3B6174D878BA699AB /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_maind.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		405776DECCD64700898B44E3 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6DC72D4CF32146AAB6F6FAF0 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		7497558C72C44195A500B844 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		78FFC541CDB14FA0BC159715 /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtestd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97800734D53F4DBDB1A018D4 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		A957E650E2824C5F9D3056B8 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14012AB526174CC6AE6F1B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E628698402AC4B42943B4204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06577BA53259414F8BF15F3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18632126989E47CC82B46963 = {
+			isa = PBXGroup;
+			children = (
+				55EBF33C5DA94008901E8C16 /* gtest */,
+				758B6D72698A4482BC34672F /* gtest_main */,
+				23517EB5A58A43FF892665E6 /* ALL_BUILD */,
+				CE89396F6A5942EC85B1117D /* Products */,
+				06577BA53259414F8BF15F3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23517EB5A58A43FF892665E6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				82094111768B44ACA547C16E /* CMake Rules */,
+				7497558C72C44195A500B844 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		55EBF33C5DA94008901E8C16 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				E3527D946A38497BBADFEEFF /* Source Files */,
+				405776DECCD64700898B44E3 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest;
+			sourceTree = "<group>";
+		};
+		55EC7803532043E6823F02E7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC72D4CF32146AAB6F6FAF0 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		758B6D72698A4482BC34672F /* gtest_main */ = {
+			isa = PBXGroup;
+			children = (
+				55EC7803532043E6823F02E7 /* Source Files */,
+				A957E650E2824C5F9D3056B8 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/CMakeLists.txt */,
+			);
+			name = gtest_main;
+			sourceTree = "<group>";
+		};
+		82094111768B44ACA547C16E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CE89396F6A5942EC85B1117D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78FFC541CDB14FA0BC159715 /* gtest */,
+				1446DEC3B6174D878BA699AB /* gtest_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3527D946A38497BBADFEEFF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				97800734D53F4DBDB1A018D4 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923B0BEFC2364BC895D5B9D0 /* gtest_main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4692E5B45F2A422B9C238762 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildPhases = (
+				16A573452E524139AA5332D5 /* Sources */,
+				14012AB526174CC6AE6F1B5D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6965AAD95BC24293BF9D565C /* PBXTargetDependency */,
+				64BB50B8415A43C7849CCCD6 /* PBXTargetDependency */,
+			);
+			name = gtest_main;
+			productName = gtest_main;
+			productReference = 1446DEC3B6174D878BA699AB /* gtest_main */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D4E86758873742379BA14DE3 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C7E2828EA44395901CF709 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				B87736715C5346628DA6C772 /* Sources */,
+				E628698402AC4B42943B4204 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865EBE9CD31D499EAF974B09 /* PBXTargetDependency */,
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = 78FFC541CDB14FA0BC159715 /* gtest */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F858840141426B9BB9F586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 1745CF09E9FD498599658B83 /* Build configuration list for PBXProject "gtest" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				467996DD23E54ABABD0CD2C4 /* Debug */,
+				293DA2237DE147A39B05050B /* Release */,
+				3EDDFD7F69844145BCD13FA5 /* MinSizeRel */,
+				E67ED2517ABB4F62B659B4C6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 18632126989E47CC82B46963;
+			projectDirPath = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest";
+			projectRoot = "";
+			targets = (
+				94AF07CFEF334CB19E033798 /* ALL_BUILD */,
+				2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */,
+				D4E86758873742379BA14DE3 /* gtest */,
+				923B0BEFC2364BC895D5B9D0 /* gtest_main */,
+				DD10130DC3DC4025BAF13F3C /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  /opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		941A8E9C16AE1FF67325C2F6 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  make -f /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BFF16561C6C89CEDE3055465 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/thirdparty/googletest/googlemock/gtest
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A573452E524139AA5332D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAFFE7F89AE84F8EA46E43BB /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest_main.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87736715C5346628DA6C772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CE83C4848D44319C938585 /* /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/src/gtest-all.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2722015365FD4BEC9CB62036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */;
+			targetProxy = 09E8124AF89D470398AD2EF2 /* PBXContainerItemProxy */;
+		};
+		53423BBEEAA24420B8B9BB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94AF07CFEF334CB19E033798 /* ALL_BUILD */;
+			targetProxy = 0EFB096B1EBF456E9BB7310B /* PBXContainerItemProxy */;
+		};
+		64BB50B8415A43C7849CCCD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */;
+			targetProxy = ACDED7394D544B878B300332 /* PBXContainerItemProxy */;
+		};
+		6965AAD95BC24293BF9D565C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E86758873742379BA14DE3 /* gtest */;
+			targetProxy = 45593E84C5A8428EA3115D94 /* PBXContainerItemProxy */;
+		};
+		81B122BBACBC425ABAF0CAFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923B0BEFC2364BC895D5B9D0 /* gtest_main */;
+			targetProxy = 658A53071E864765912AE27D /* PBXContainerItemProxy */;
+		};
+		865EBE9CD31D499EAF974B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2239CD4A82DA4BD2A9FF71D3 /* ZERO_CHECK */;
+			targetProxy = 6BAC93EF8979471894343D57 /* PBXContainerItemProxy */;
+		};
+		EA75517E68A442489DB5F2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E86758873742379BA14DE3 /* gtest */;
+			targetProxy = B6BFF701BA3D4FDCB311A684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		092B0A64B0544525B658BC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		09CC460F71FF4D11AE94BE28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = Debug;
+		};
+		1907947661C9499A9358ECF3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = RelWithDebInfo;
+		};
+		1F60410DFFA04E549BDAD0BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		24229E6BC1F14C57B08371DB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		47819584A2CF493E9F83C024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = Release;
+		};
+		4D4167077774404A8C8A5E73 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build";
+			};
+			name = MinSizeRel;
+		};
+		760419004827499C82EC4A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include    '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_maind;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7814949E59CB4A7E9ACA0EEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7DD32811E98048B88FCECA9F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8CA9DE7060A8424F96846052 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		95B79FD5FB0B4BBE82BB9A73 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A5EC57112CFB4852BAAEBFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BEC7CEBF99264854BF98E0A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BEC8EA65DD5544B3AA61F34C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CD8E86D9A1F2455D80067606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CF5FD6232B264AE88C2DB571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D091D2AE2BC2432EAC4F8EA7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include        -DNDEBUG '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D0C485A1695C417B9EF1929C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D3A3736377F84D3D926973B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D8183095898D4646A02C8359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include     -DNDEBUG '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D87D86F8F3E3408ABC609987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DFA92283B6674B0B962D004A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F65891FBBFC244499BDD7CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest/include","/Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/googletest/googletest","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem /Users/ilavaleev/Dev/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1 -isystem/opt/X11/include -isystem/opt/local/include -isystem/usr/local/include    '-std=c++11'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtestd;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/ilavaleev/Dev/CppND-Route-Planning-Project/buildX/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1745CF09E9FD498599658B83 /* Build configuration list for PBXProject "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CC460F71FF4D11AE94BE28 /* Debug */,
+				47819584A2CF493E9F83C024 /* Release */,
+				4D4167077774404A8C8A5E73 /* MinSizeRel */,
+				1907947661C9499A9358ECF3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4692E5B45F2A422B9C238762 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				760419004827499C82EC4A17 /* Debug */,
+				D8183095898D4646A02C8359 /* Release */,
+				7DD32811E98048B88FCECA9F /* MinSizeRel */,
+				8CA9DE7060A8424F96846052 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2C7E2828EA44395901CF709 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65891FBBFC244499BDD7CC9 /* Debug */,
+				A5EC57112CFB4852BAAEBFFA /* Release */,
+				D3A3736377F84D3D926973B3 /* MinSizeRel */,
+				D091D2AE2BC2432EAC4F8EA7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9B4FFF10A63444D8A88445C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7814949E59CB4A7E9ACA0EEF /* Debug */,
+				D87D86F8F3E3408ABC609987 /* Release */,
+				95B79FD5FB0B4BBE82BB9A73 /* MinSizeRel */,
+				24229E6BC1F14C57B08371DB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0BABC6E1A2C407287654078 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E86D9A1F2455D80067606 /* Debug */,
+				CF5FD6232B264AE88C2DB571 /* Release */,
+				BEC8EA65DD5544B3AA61F34C /* MinSizeRel */,
+				BEC7CEBF99264854BF98E0A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBD3DFD2A8CA4889AFFC3E63 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B0A64B0544525B658BC3B /* Debug */,
+				1F60410DFFA04E549BDAD0BA /* Release */,
+				D0C485A1695C417B9EF1929C /* MinSizeRel */,
+				DFA92283B6674B0B962D004A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7F858840141426B9BB9F586 /* Project object */;
+}
